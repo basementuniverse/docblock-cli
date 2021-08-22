@@ -8,12 +8,15 @@
   },
   "author": "Gordon Larrigan <gordonlarrigan@gmail.com> (https://gordonlarrigan.com)",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/basementuniverse/docblock-cli.git"
+  },
   "bin": {
     "docblock": "bin/docblock"
   },
   "dependencies": {
     "docblock": "^0.4.5",
-    "globby": "^12.0.1",
     "minimist": "^1.2.5"
   }
 }
