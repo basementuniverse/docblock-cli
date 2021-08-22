@@ -1,0 +1,19 @@
+{
+  "name": "@basementuniverse/docblock-cli",
+  "version": "1.0.0",
+  "description": "Parse docblock-style comments into JSON on the command line",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gordon Larrigan <gordonlarrigan@gmail.com> (https://gordonlarrigan.com)",
+  "license": "MIT",
+  "bin": {
+    "docblock": "bin/docblock"
+  },
+  "dependencies": {
+    "docblock": "^0.4.5",
+    "globby": "^12.0.1",
+    "minimist": "^1.2.5"
+  }
+}
